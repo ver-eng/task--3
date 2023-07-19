@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 1180px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav li,
+.nav a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav ul {
+  display: flex;
+  gap: 121px;
+  color: #2414db;
+  font-size: 20px;
+}
+.people-photo,
+.car-photo {
+  width: 1440px;
+  height: 478px;
+}
+.welcome-text {
+  margin: 120px 530px 120px 130px;
+}
+.welcome-text h3 {
+  color: #17326e;
+  font-size: 36px;
+}
+.about h3,
+.detailed-hystory h3,
+.contact h3 {
+  color: #19126b;
+  font-size: 36px;
+}
+.welcome-text p,
+.about p,
+.detailed-hystory p,
+.contact p {
+  font-size: 20px;
+  color: #090346;
+}
+.car-images {
+  width: 1440px;
+  height: 439px;
+  background-color: #ebebf0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.last-part {
+  background-color: #19126b;
+  width: 1440px;
+  height: 161px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
+}
+.footer {
+  color: #fff;
+  font-size: 16px;
+}
+.social-media li {
+  display: inline-block;
+}
+.active {
+  color: #f50808;
+}
+.about {
+  margin: 120px 530px 120px 130px;
+}
+.history {
+  width: 1440px;
+  height: 516px;
+  padding: 73px 130px 72px 130px;
+  display: flex;
+  background-color: #ebebf0;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 95px;
+}
+.detailed-hystory h3,
+.contact h3,
+.welcome-text h3,
+.conatct-details h2 {
+  margin-bottom: 24px;
+}
+.contact {
+  margin: 120px 530px 120px 130px;
+}
+.contact-info {
+  width: 1440px;
+  height: 546px;
+  background-color: #ebebf0;
+  padding: 78px 130px 94px 130px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 177px;
+}
+.conatct-details {
+  width: 323px;
+  height: 142px;
+}
+.conatct-details a,
+.conatct-details li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 11px;
+  color: #000000;
+  font-size: 20px;
+  font-style: italic;
+}
+.word-color {
+  color: #0d69a9;
+}
